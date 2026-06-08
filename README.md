@@ -1,4 +1,4 @@
-<h1 align="center">🏯 GD_Kopat / beginner programmer </h1>
+<h1 align="center">⛩️ GD_Kopat / beginner programmer </h1>
 
 ###
 

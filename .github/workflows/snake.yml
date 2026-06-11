@@ -2,6 +2,8 @@ name: generate snake
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"   # раз в сутки
 
 jobs:
   build:
@@ -9,19 +11,19 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: Platane/snk@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: GDKopat
           outputs: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg?palette=github-dark
-      - run: |
-          mkdir -p dist
-          mv *.svg dist/
-      - uses: peaceiris/actions-gh-pages@v4
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
           publish_branch: output
+          publish_dir: ./dist
           force_orphan: true

@@ -20,6 +20,12 @@
   </picture>
 </p>
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=GDKopat&show_icons=true&theme=radical&hide_border=true" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GDKopat&layout=compact&theme=radical&hide_border=true" height="165" alt="Top Languages" />
+</div>
+
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=GDKopat&style=flat-square" alt="Profile Views">
 </p>

@@ -21,8 +21,8 @@
 </p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GDKopat&show_icons=true&theme=radical&hide_border=true" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GDKopat&layout=compact&theme=radical&hide_border=true" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.zcy.dev/api?username=GDKopat&show_icons=true&theme=radical&hide_border=true" alt="GDKopat's GitHub stats" />
+  <img src="https://github-readme-stats.zcy.dev/api/top-langs/?username=GDKopat&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </div>
 
 
